@@ -37,6 +37,7 @@ namespace ProdutosWeb
             services.AddScoped<EnderecoRepository>();
             services.AddScoped<ProdutoRepository>();
             services.AddScoped<FornecedorRepository>();
+            services.AddScoped<ContatoRepository>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
