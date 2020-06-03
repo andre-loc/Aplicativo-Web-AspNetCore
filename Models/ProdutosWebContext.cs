@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using ProdutosWeb.Models;
 
 namespace ProdutosWeb.Models
 {
@@ -110,5 +111,7 @@ namespace ProdutosWeb.Models
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+        public DbSet<ProdutosWeb.Models.Contato> Contato { get; set; }
     }
 }

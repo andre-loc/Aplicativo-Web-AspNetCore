@@ -20,5 +20,6 @@ namespace ProdutosWeb.Data
 
         public DbSet<Fornecedor> Fornecedor { get; set; }
 
+        public DbSet<Contato> Contato { get; set; }
     }
 }

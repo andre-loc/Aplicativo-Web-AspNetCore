@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ProdutosWeb.Models;
@@ -30,12 +31,6 @@ namespace ProdutosWeb.Controllers
         [Route("quem_somos")]
         [Route("quem-somos")]
         public IActionResult QuemSomos()
-        {
-            return View();
-        }
-
-        [Route("contatos")]
-        public IActionResult Contatos()
         {
             return View();
         }
